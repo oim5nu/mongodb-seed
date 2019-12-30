@@ -1,0 +1,20 @@
+{
+  "name": "mongodb-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seed.js",
+  "scripts": {
+    "start": "node seed_client.js && node seed_mgs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3"
+  }
+}
